@@ -23,5 +23,5 @@ https://art3m198.github.io/Tidecoin-paper-wallet/
 # Donate TDC: 
 TMMR4k28n4mdrkRupAYdMzgqs734hEZhDK
 
-
+<img src="https://github.com/Art3m198/Tidecoin-paper-wallet/blob/main/assets/image/tide.PNG" width="50%" height="50%">  
 
