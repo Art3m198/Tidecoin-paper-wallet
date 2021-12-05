@@ -2,16 +2,16 @@
 Tidecoin paper wallet
 
 # Wallet features
-1. Generate public and private key by Nickname and Password or SEED phrase
+1. Generate public and private key by Nickname and Password or MNEMONIC phrase
 2. The private key is not transferred outside the wallet
 3. To generate QR code, used this library https://github.com/davidshimjs/qrcodejs
 4. Print paper wallet
 
-You can generate a wallet by Nickname and Password or SEED phrase, get a private key to import into the Tidecoin Core.
+You can generate a wallet by Nickname and Password or MNEMONIC phrase, get a private key to import into the Tidecoin Core.
 
-Keep your SEED phrase in a safe place.
+Keep your MNEMONIC phrase in a safe place.
 
-Since the Tidecoin private key is long (2983 characters), recommended to use NICKNAME and PASSWORD or SEED phrase to generate a paper wallet. After creating a wallet, you can copy this huge private key (WIF) by pressing red button and import it into Tidecoin Core. 
+Since the Tidecoin private key is long (2983 characters), recommended to use NICKNAME and PASSWORD or MNEMONIC phrase to generate a paper wallet. After creating a wallet, you can copy this huge private key (WIF) by pressing red button and import it into Tidecoin Core. 
 
 To import the private key into the Tidecoin Core, use the command importprivkey *YOUR PRIVATE KEY*
 
