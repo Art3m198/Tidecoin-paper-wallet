@@ -4,7 +4,7 @@ Tidecoin paper wallet
 # Wallet features
 1. Generate public and private key by Nickname and Password or SEED phrase
 2. The private key is not transferred outside the wallet
-3. To generate quar code, used this library https://github.com/davidshimjs/qrcodejs
+3. To generate QR code, used this library https://github.com/davidshimjs/qrcodejs
 4. Print paper wallet
 
 You can generate a wallet by Nickname and Password or SEED phrase, get a private key to import into the Tidecoin Core.
