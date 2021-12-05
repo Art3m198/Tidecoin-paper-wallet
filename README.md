@@ -9,7 +9,9 @@ Tidecoin paper wallet
 
 You can generate a wallet by Nickname and Password or SEED phrase, get a private key to import into the Tidecoin Core.
 
-Keep your SEED phrase in a safe place.Since the Tidecoin private key is long (2983 characters), recommended to use NICKNAME and PASSWORD or SEED phrase to generate a paper wallet. After creating a wallet, you can copy this huge private key (WIF) by pressing red button and import it into Tidecoin Core. 
+Keep your SEED phrase in a safe place.
+
+Since the Tidecoin private key is long (2983 characters), recommended to use NICKNAME and PASSWORD or SEED phrase to generate a paper wallet. After creating a wallet, you can copy this huge private key (WIF) by pressing red button and import it into Tidecoin Core. 
 
 To import the private key into the Tidecoin Core, use the command importprivkey *YOUR PRIVATE KEY*
 
