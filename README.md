@@ -23,7 +23,7 @@ You can use the WEB WALLET https://tdc.cash/ by entering the same NICKNAME and P
 https://art3m198.github.io/Tidecoin-paper-wallet/
 
 # Donate TDC: 
-TMMR4k28n4mdrkRupAYdMzgqs734hEZhDK
+TBidZ2t9JF6BXCboRSCJFbzfx2MVKBQi15
 
 <img src="https://github.com/Art3m198/Tidecoin-paper-wallet/blob/main/assets/image/tide1.PNG" width="50%" height="50%">  
 
