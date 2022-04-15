@@ -42,11 +42,17 @@
 			Mnemonic <i class="fa fa-star"></i>
 		</button>
 		<br>
-		<button id="random24" style="margin-bottom: 10px; margin-top: 10px;" type="button" onClick="javascript:bip();" class="btn generate btn-success">
-			GENERATE RANDOM 24 words <i class="fa fa-bell"></i>
+		<p id="custom">Custom or 
+	<button id="random12" style="margin-bottom: 10px; margin-top: 10px;" type="button" onClick="javascript:bip12();" class="btn generate btn-success">
+			12 words
 		</button>
+		<button id="random24" style="margin-bottom: 10px; margin-top: 10px;" type="button" onClick="javascript:bip();" class="btn generate btn-success">
+            <div style="">
+			24 words
+		</button>
+		</p>
             <div style="padding-bottom: 15px">
-              <textarea id="phrase24" placeholder="Mnemonic" required="" class="form-control input-lg" value=""></textarea>
+              <textarea id="phrase" placeholder="Mnemonic" required="" class="form-control input-lg" value=""></textarea>
               <button id="signin2" type="submit" name="go2" class="btnMain btn btn-lg btn-primary btn-block">Generate TDC address</button>
 			  <button id="newaddress" onclick="window.location.href = 'mnem.html';" class="btnMain btn btn-lg btn-primary btn-block" style="display: none;">Generate new address</button>
 			</div>
