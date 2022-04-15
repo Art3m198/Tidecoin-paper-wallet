@@ -166,8 +166,8 @@ async function login() {
 }
 
 async function login2() {
-  passphrase2 = $("#phrase24").val();
-  $('#phrase24').prop("disabled", true);
+  passphrase2 = $("#phrase").val();
+  $('#phrase').prop("disabled", true);
   $("#loginprogress2").show();
   $("form[role='login2']").click();
  if (!keyPair){
@@ -213,10 +213,12 @@ function loadAddress2() {
   $("#loginprogress2").hide();
   $("#newaddress2").show();
   $("#signin2").hide();
-  $("#phrase24").hide();
+  $("#phrase").hide();
+  $("#custom").hide();
+  $("#random12").hide();
   $("#random24").hide();
   $("#newaddress").show();
-  passphrase2 = $("#phrase24").val();
+  passphrase2 = $("#phrase").val();
   $("#priv-qr").attr("alt", passphrase2);
   $("#tdcaddress").html(keyPair.getAddress());
   $("#mnem-seed").html(passphrase2);
@@ -530,7 +532,7 @@ for (var i = 0; i < loops; i++) {
 var gen24 = newWords.join(' ');
 
 
-  $("#phrase24").html(gen24);
+  $("#phrase").html(gen24);
 }
 
 const dictionaries = {
@@ -21141,7 +21143,18 @@ function bip(){
     console.log(entropy);
     const mnemonic = await bip39.genMnemonic(entropy, dictionaries.english);
     console.log(mnemonic);
-   	document.getElementById("phrase24").innerHTML = mnemonic;
+   	document.getElementById("phrase").innerHTML = mnemonic;
+    await bip39.getBinaryFromMnemonic(mnemonic, dictionaries.english);
+})();
+}
+function bip12(){
+(async () => {
+    const size = 128; // 24 words
+    const entropy = bip39.genEntropy(size);
+    console.log(entropy);
+    const mnemonic = await bip39.genMnemonic(entropy, dictionaries.english);
+    console.log(mnemonic);
+   	document.getElementById("phrase").innerHTML = mnemonic;
     await bip39.getBinaryFromMnemonic(mnemonic, dictionaries.english);
 })();
 }
